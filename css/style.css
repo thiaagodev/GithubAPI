@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.my-container {
+    width: 100vw;
+    height: 100vh;
+    background: #1d2936;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    width: 40%;
+    max-height: 400px;
+}
+.box #list {
+    background-color: white;
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+body {
+    margin: 0px;
+}
